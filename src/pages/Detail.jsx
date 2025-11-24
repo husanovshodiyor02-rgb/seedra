@@ -26,6 +26,25 @@ const products = [
       price: 12.56,
       img: Img3,
     },
+    {
+        id: 4,
+        title: "Seedra Cilantro Seeds for Planting Indoor and Outdoor",
+        price: 12.56,
+        img: Img1,
+      },
+      {
+        id: 5,
+        title:
+          "SEEDRA Corn - Bodacious Hybrid Seeds for Indoor and Outdoor Planting",
+        price: 12.56,
+        img: Img2,
+      },
+      {
+        id: 6,
+        title: "SEEDRA Spinach Seeds for Indoor and Outdoor Planting",
+        price: 12.56,
+        img: Img3,
+      },
 ];
 
 const Detail = () => {

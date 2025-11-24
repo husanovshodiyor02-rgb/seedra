@@ -1,72 +1,3 @@
-// import React from 'react'
-// import Show from "../assets/img/show.png";
-// import Show2 from "../assets/img/show2.png";
-
-// const All = () => {
-//   return (
-//     <section className="container1">
-//       <div
-//         className="h-auto rounded-[25px] bg-cover bg-center py-12 px-18"
-//         style={{ backgroundImage: `url(${Show})` }}
-//       >
-//         <h1 className="font-semibold md:text-5xl text-3xl leading-[112%] -tracking-wider text-[#1f2533]">
-//           SEEDRA Basil Seeds for <br /> Indoor and Outdoor Planting
-//         </h1>
-//         <p className="font-light text-base leading-[175%] text-[#1f2533] pt-2">
-//           Be sure of our quality - the freshest batches of this season. Non-GMO,{" "}
-//           <br />
-//           Heirloom - our seeds were tested and have the best germination
-//           ratings. <br /> Your easy growing experience is our guarantee
-//         </p>
-//         <div className="flex items-center gap-3 my-5">
-//           <div>
-//             <svg
-//               width="46"
-//               height="46"
-//               viewBox="0 0 46 46"
-//               fill="none"
-//               xmlns="http://www.w3.org/2000/svg"
-//             >
-//               <path
-//                 d="M36.2651 21.7765C35.4967 20.047 34.3797 18.4947 32.9839 17.2167L31.832 16.1599C31.7929 16.125 31.7459 16.1002 31.6949 16.0877C31.644 16.0753 31.5908 16.0755 31.54 16.0884C31.4892 16.1013 31.4424 16.1265 31.4036 16.1617C31.3648 16.1969 31.3352 16.2411 31.3175 16.2905L30.8029 17.7669C30.4823 18.6931 29.8925 19.6391 29.0574 20.5692C29.002 20.6286 28.9386 20.6444 28.8951 20.6484C28.8516 20.6523 28.7843 20.6444 28.7249 20.589C28.6695 20.5415 28.6418 20.4703 28.6457 20.399C28.7922 18.0162 28.0797 15.3286 26.5202 12.4036C25.2299 9.97329 23.4368 8.07734 21.1965 6.75532L19.5618 5.79349C19.3481 5.66683 19.075 5.83307 19.0868 6.08244L19.1739 7.98234C19.2333 9.28061 19.0829 10.4285 18.7266 11.3824C18.2912 12.55 17.6659 13.6346 16.8663 14.6083C16.3099 15.285 15.6792 15.897 14.9862 16.433C13.3171 17.7161 11.9599 19.3601 11.0162 21.2421C10.0748 23.1405 9.58449 25.2306 9.58334 27.3495C9.58334 29.2177 9.95145 31.0266 10.6797 32.7326C11.383 34.3751 12.3978 35.8657 13.6681 37.1221C14.9506 38.3888 16.4388 39.3862 18.0973 40.0789C19.8151 40.7993 21.6359 41.1634 23.516 41.1634C25.3961 41.1634 27.2168 40.7993 28.9347 40.0828C30.5891 39.3942 32.0935 38.3899 33.3638 37.1261C34.6463 35.8595 35.6516 34.3792 36.3522 32.7365C37.0794 31.0352 37.4525 29.2037 37.4486 27.3535C37.4486 25.4219 37.0528 23.5457 36.2651 21.7765V21.7765Z"
-//                 fill="#E55C5C"
-//               />
-//             </svg>
-//           </div>
-//           <h1 className="font-semibold md:text-[42px] text-2xl leading-[129%] text-[#1f2533]">
-//             $12.56
-//           </h1>
-//           <s className="font-semibold text-[22px] leading-[245%] text-[#70737c]">
-//             $15.56
-//           </s>
-//         </div>
-//         <div className="flex gap-3">
-//           <button className="w-[153px] h-[51px] px-[33px] py-[11px] rounded-lg bg-[#359740] font-medium text-base leading-[178%] tracking-[-0.04em] text-white">
-//             Add to card
-//           </button>
-//           <button className="w-[153px] h-[51px] px-[33px] py-[11px] rounded-lg bg-white font-medium text-base leading-[178%] tracking-[-0.04em] text-[#359740]">
-//             Discover
-//           </button>
-//         </div>
-//       </div>
-//       <div
-//         className="h-auto rounded-[13px] bg-cover bg-center my-10 py-5"
-//         style={{ backgroundImage: `url(${Show2})` }}
-//       >
-//         <h1 className="font-semibold text-2xl text-center leading-[131%] tracking-[-0.02em] text-[#1f2533]">
-//           We sell seeds{" "}
-//         </h1>
-//         <h3 className="font-medium text-base text-center leading-[178%] tracking-[-0.04em] text-[#70737c]">
-//           that always sprout and gardening supplies which never break
-//         </h3>
-//       </div>
-//     </section>
-//   );
-// }
-
-// export default All
-
-
 import React from "react";
 import { Link } from "react-router-dom";
 import Show from "../assets/img/show.png";
@@ -74,6 +5,9 @@ import Show2 from "../assets/img/show2.png";
 import Img1 from "../assets/img/img1.png";
 import Img2 from "../assets/img/img2.png";
 import Img3 from "../assets/img/img3.png";
+import Img4 from "../assets/img/img4.png";
+import Img5 from "../assets/img/img5.png";
+import Img6 from "../assets/img/img6.png";
 
 const products = [
   {
@@ -91,6 +25,25 @@ const products = [
   },
   {
     id: 3,
+    title: "SEEDRA Spinach Seeds for Indoor and Outdoor Planting",
+    price: 12.56,
+    img: Img3,
+  },
+  {
+    id: 4,
+    title: "Seedra Cilantro Seeds for Planting Indoor and Outdoor",
+    price: 12.56,
+    img: Img1,
+  },
+  {
+    id: 5,
+    title:
+      "SEEDRA Corn - Bodacious Hybrid Seeds for Indoor and Outdoor Planting",
+    price: 12.56,
+    img: Img2,
+  },
+  {
+    id: 6,
     title: "SEEDRA Spinach Seeds for Indoor and Outdoor Planting",
     price: 12.56,
     img: Img3,
@@ -304,15 +257,15 @@ const All = () => {
           FLOWERS
         </div>
       </div>
-      <div className="flex items-center gap-20 overflow-x-auto pb-10">
+      <div className="grid grid-cols-3 gap-20 overflow-x-auto pb-10">
         {products.map((p) => (
           <Link
             to={`/detail/${p.id}`}
             key={p.id}
-            className="border-[#efefef] w-full sm:w-[350px] h-auto rounded-lg p-6 border-2 border-solid shadow hover:scale-[1.02] duration-200"
+            className="border-[#efefef] w-full sm:w-[350px] h-auto rounded-lg p-6 border-2 border-solid shadow hover:scale-[1.02] duration-200 relative"
           >
             <img src={p.img} className="w-70 h-70 object-cover rounded-xl" />
-            <div className="absolute top-0 right-0 w-10 h-10 rounded-[100%] border border-[gray]">
+            <div className="absolute top-3 right-3 w-10 h-10 rounded-[100%] border border-[#efefef] p-2">
               <svg
                 width="24"
                 height="24"
@@ -425,6 +378,149 @@ const All = () => {
             </div>
           </Link>
         ))}
+      </div>
+      <div>
+        {/*Our blog*/}
+        <div className="flex items-center justify-between my-10">
+          <h2 className="font-semibold text-4xl leading-[150%] -tracking-wider text-[#1f2533]">
+            Our blog.
+          </h2>
+          <div className="border border-[#efefef] w-[155px] h-[51px] px-[23px] py-[11px] rounded-lg border-solid font-medium text-base leading-[178%] tracking-[-0.04em] text-[#359740]">
+            Go to our blog
+          </div>
+        </div>
+        
+
+        <div className="flex gap-7 overflow-x-auto">
+          <div>
+            <div className="w-[730px] h-[300px] rounded-xl bg-[#eaf1eb] pl-8">
+              <div className="flex justify-between">
+                <div>
+                  <div className="flex items-center gap-2 font-normal text-sm leading-[178%] text-[#70737c] pt-8">
+                    <svg
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M12 3C7.05 3 3 7.05 3 12C3 16.95 7.05 21 12 21C16.95 21 21 16.95 21 12C21 7.05 16.95 3 12 3ZM14.7 12.9H12C11.46 12.9 11.1 12.54 11.1 12V7.5C11.1 6.96 11.46 6.6 12 6.6C12.54 6.6 12.9 6.96 12.9 7.5V11.1H14.7C15.24 11.1 15.6 11.46 15.6 12C15.6 12.54 15.24 12.9 14.7 12.9Z"
+                        fill="#70737C"
+                      />
+                    </svg>
+                    12.09.2021
+                  </div>
+                  <h1 className="font-semibold text-2xl leading-[131%] tracking-[-0.02em] text-[#1f2533] py-2">
+                    How to plant spinach correctly <br /> in winter
+                  </h1>
+                  <p className="font-normal text-sm leading-[178%] text-[#70737c]">
+                    In most areas, successive sowing can be done from early{" "}
+                    <br /> spring until early winter, but more often during
+                    hotter <br /> months...
+                  </p>
+                  <button className="border border-[#efefef] bg-white w-[106px] h-[51px] px-[33px] py-[11px] mt-2 rounded-lg border-solid font-medium text-base leading-[178%] tracking-[-0.04em] text-[#359740]">
+                    Read
+                  </button>
+                </div>
+                <div className="p-0">
+                  <img src={Img4} alt="img" className="" />
+                </div>
+              </div>
+            </div>
+            <div className="flex gap-7 mt-7">
+              <div className="w-[350px] h-[300px] rounded-xl bg-[#eaf1eb] pl-8 relative">
+                <div className="flex items-center gap-2 font-normal text-sm leading-[178%] text-[#70737c] pt-8">
+                  <svg
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M12 3C7.05 3 3 7.05 3 12C3 16.95 7.05 21 12 21C16.95 21 21 16.95 21 12C21 7.05 16.95 3 12 3ZM14.7 12.9H12C11.46 12.9 11.1 12.54 11.1 12V7.5C11.1 6.96 11.46 6.6 12 6.6C12.54 6.6 12.9 6.96 12.9 7.5V11.1H14.7C15.24 11.1 15.6 11.46 15.6 12C15.6 12.54 15.24 12.9 14.7 12.9Z"
+                      fill="#70737C"
+                    />
+                  </svg>
+                  12.09.2021
+                </div>
+                <h1 className="font-semibold text-2xl leading-[131%] tracking-[-0.02em] text-[#1f2533] py-2">
+                  How to plant spinach
+                  <br /> correctly in winter
+                </h1>
+
+                <button className="border border-[#efefef] bg-white w-[106px] h-[51px] px-[33px] py-[11px] mt-2 rounded-lg border-solid font-medium text-base leading-[178%] tracking-[-0.04em] text-[#359740]">
+                  Read
+                </button>
+                <img
+                  src={Img5}
+                  alt="img"
+                  className="absolute bottom-0 right-0 rounded-[0_0_12px_0]"
+                />
+              </div>
+              <div className="w-[350px] h-[300px] rounded-xl bg-[#eaf1eb] pl-8 relative">
+                <div className="flex items-center gap-2 font-normal text-sm leading-[178%] text-[#70737c] pt-8">
+                  <svg
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M12 3C7.05 3 3 7.05 3 12C3 16.95 7.05 21 12 21C16.95 21 21 16.95 21 12C21 7.05 16.95 3 12 3ZM14.7 12.9H12C11.46 12.9 11.1 12.54 11.1 12V7.5C11.1 6.96 11.46 6.6 12 6.6C12.54 6.6 12.9 6.96 12.9 7.5V11.1H14.7C15.24 11.1 15.6 11.46 15.6 12C15.6 12.54 15.24 12.9 14.7 12.9Z"
+                      fill="#70737C"
+                    />
+                  </svg>
+                  12.09.2021
+                </div>
+                <h1 className="font-semibold text-2xl leading-[131%] tracking-[-0.02em] text-[#1f2533] py-2">
+                  How to plant spinach
+                  <br /> correctly in winter
+                </h1>
+
+                <button className="border border-[#efefef] bg-white w-[106px] h-[51px] px-[33px] py-[11px] mt-2 rounded-lg border-solid font-medium text-base leading-[178%] tracking-[-0.04em] text-[#359740]">
+                  Read
+                </button>
+                <img
+                  src={Img5}
+                  alt="img"
+                  className="absolute bottom-0 right-0 rounded-[0_0_12px_0]"
+                />
+              </div>
+            </div>
+          </div>
+          <div className="w-[350px] h-[630px] rounded-xl bg-[#eff2f8] pl-8 relative">
+            <div className="flex items-center gap-2 font-normal text-sm leading-[178%] text-[#70737c] pt-8">
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M12 3C7.05 3 3 7.05 3 12C3 16.95 7.05 21 12 21C16.95 21 21 16.95 21 12C21 7.05 16.95 3 12 3ZM14.7 12.9H12C11.46 12.9 11.1 12.54 11.1 12V7.5C11.1 6.96 11.46 6.6 12 6.6C12.54 6.6 12.9 6.96 12.9 7.5V11.1H14.7C15.24 11.1 15.6 11.46 15.6 12C15.6 12.54 15.24 12.9 14.7 12.9Z"
+                  fill="#70737C"
+                />
+              </svg>
+              12.09.2021
+            </div>
+            <h1 className="font-semibold text-2xl leading-[131%] tracking-[-0.02em] text-[#1f2533] py-2">
+              How to plant spinach<br /> correctly  in winter
+            </h1>
+            <p className="font-normal text-sm leading-[178%] text-[#70737c]">
+              In most areas, successive sowing can be<br /> done from early 
+              spring until early winter, but<br /> more often during hotter 
+              months...
+            </p>
+            <button className="border border-[#efefef] bg-white w-[106px] h-[51px] px-[33px] py-[11px] mt-2 rounded-lg border-solid font-medium text-base leading-[178%] tracking-[-0.04em] text-[#359740]">
+              Read
+            </button>
+            <img src={Img6} alt="" className="absolute bottom-0 right-0" />
+          </div>
+        </div>
       </div>
     </section>
   );
